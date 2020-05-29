@@ -1,0 +1,10 @@
+// Cat Game
+Press play.
+Are all boxes closed?
+    Yes = Continue.
+    No  = Close all boxes
+Cat is hidden in a random box!
+onclick of box reveal either empty box or the cat.
+    empty box = click again.
+    cat = You win!
+Press play
