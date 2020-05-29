@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+    background: #fda4a4;
+    color: #800080;
+}
+
+nav {
+height: 380px;
+width: 250px;
+position: fixed;
+z-index: 5;
+top: 35px;
+right: -300px;
+background: #da5757;
+padding-top: 60px;
+}
+
+    #navWrapper {
+        position: relative;
+        top: 25px;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        padding: 8px 8px 8px 32px;
+        margin: 4px 5px;
+        font-size: 125%;
+        line-height: 2;
+        border: 1px solid #800080;
+    }
+
+    #closeBtn {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        border: hidden;
+        font-size: 200%;
+        width: 20px;
+        height: 20px;
+    }
+
+    #openBtn {
+        font-size: 125%;
+        cursor: pointer;
+        padding: 10px 15px;
+        margin: 15px 0;
+        border: none;
+        height: 50px;
+        position: fixed;
+        right: 15px;
+    }
