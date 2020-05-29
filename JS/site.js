@@ -1,4 +1,3 @@
-let nav = document.getElementById('nav');
 let navClosed = true;
 
 let toggleNav = () => {
