@@ -8,6 +8,7 @@ let box6 = document.getElementById('box6');
 let start = document.getElementById('start');
 let guessesBox = document.getElementById('guesses');
 let winsText = document.getElementById('wins');
+let average = document.getElementById('average');
 let catBox = 'https://bit.ly/3djRC94';
 let openBox = 'https://bit.ly/2XLOo7O';
 let closedBox = 'https://bit.ly/3ckjhFq';
@@ -202,8 +203,7 @@ let gameOver = (str) => {
         guessesBox.innerHTML = `${guesses} guess(es)`;
         wins++;
         winsText.innerHTML = `You found it ${wins} time(s)`
-    } else {
-        start.innerHTML = "Game over! Play again?"
+        average.innerHTML = `Your average is ${guesses / wins } guesses / win`
     }
     currentlyPlaying = false;
 }//gameOver
