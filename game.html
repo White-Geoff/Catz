@@ -9,7 +9,7 @@
 <body>
     <!-- Nav -->
     <nav id="nav">
-        <a href="" id="closeBtn" onclick="toggleNav()">&times;</a>
+        <a href="javascript:void(0)" id="closeBtn" onclick="toggleNav()">&times;</a>
         <div id="navWrapper">
             <a href="index.html" title="Home">Home</a>
             <a href="star.html" title="Star Cat">Star Cat</a>
@@ -27,7 +27,26 @@
         <button id="openBtn" onclick="toggleNav();">&#9776;</button>
     </header>
 
-
+    <main>
+        <h1>Cat Game</h1>
+        <h3 id="titleRow">Instructions</h3>
+        <table>
+            <tr>
+                <td class="instructionsNumber">1:</td>
+                <td class="instructionsText">Hiding under one of these boxes is a cat!</td>
+            </tr>
+            <tr>
+                <td class="instructionsNumber">2:</td>
+                <td class="instructionsText">Can you guess which box it is under?</td>
+            </tr>
+        </table>
+        <div id="boxRow">
+            <img id="box1" class="box" src="Assets/Images/closedBox.jpg" alt="Closed Box">
+            <img id="box2" class="box" src="Assets/Images/closedBox.jpg" alt="Closed Box">
+            <img id="box3" class="box" src="Assets/Images/closedBox.jpg" alt="Closed Box">
+        </div>
+        <div id="start">Play</div>
+    </main>
 
     <footer>
         <p id="footerText">© 2020 Catz</p>
