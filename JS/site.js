@@ -7,9 +7,9 @@ let box5 = document.getElementById('box5');
 let box6 = document.getElementById('box6');
 let start = document.getElementById('start');
 let guessesBox = document.getElementById('guesses')
-let catBox = 'https://q3ndvw.bn.files.1drv.com/y4m-sNjfcQg-lQ6ifoEJYD78TVxNVv8uzD1xq1StjMHU74qF15lTOFZMHfFK8JOYQ4mTM2YVjnh3W-DGma5lSlGDUBRdAxdMgCTS0wYVQeCBaI6-EPsVsNGBOaurnapaZRhO69umOy6ZuQx8WCUsPvuKhgQ2bwfn7UwJNrwKueaAoe5kUX2xP__m-kt2xABLzt8Zprj_2ifKS_xgeIKdDt0HQ?width=1080&height=1078&cropmode=none';
-let openBox = 'https://qnndvw.bn.files.1drv.com/y4m05Dg0k1AJTvyS4TBF2k0jTZsVN1J7LfuGeM0uZ_Rn9UbMLkzBGV56SN9T7_cTX1xyYg0mV6dVmzbjkaLhdPCqAm9ogBxJc-rehlYGvDpeFBipPZcL7UIKow0wB6dSHUyHfjnGV5_5-FwoIkPy_duP67r3oI21CuAiH5n6pSzWzdTMTGE-gz3e2JDSM6d6ccFB9jK8TmHD9Y1NNO0HtVe5A?width=1080&height=1041&cropmode=none';
-let closedBox = 'https://rhndvw.bn.files.1drv.com/y4mWhJmOQClBtdq3kzrOAs4--DFubCADn8g6zavVmryxD-_qM34cWb0hLrf0nEDqRyIghxd4oj52L7kD-xOrJNqhiY6jJl9vEj02lhbU-fKNAKQRLYWUuk7xXlPodsjrccXuBMhEK2AWoMD1MXPg7JOSUyP9RsqH9kbrVP4S3xXPKEMdG6d596G8n4x-SoQ1etWecZxRiQLWZjivKFKyEyGog?width=1080&height=1015&cropmode=none';
+let catBox = 'https://bit.ly/3djRC94';
+let openBox = 'https://bit.ly/2XLOo7O';
+let closedBox = 'https://bit.ly/3ckjhFq';
 let numClosedBoxes = 6;
 let openBox1;
 let openBox2;
