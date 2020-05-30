@@ -108,7 +108,8 @@ main {
             height: auto;
         }
 
-        #start {
+        #start,
+        #guesses {
             margin: auto;
             width: 120px;
 	        height: 43px;
@@ -120,7 +121,7 @@ main {
 
         #boxRow>img {
             width: 250px;
-            height: auto;
+            height: 250px;
         }
 
 footer {
