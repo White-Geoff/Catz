@@ -6,7 +6,8 @@ let box4 = document.getElementById('box4');
 let box5 = document.getElementById('box5');
 let box6 = document.getElementById('box6');
 let start = document.getElementById('start');
-let guessesBox = document.getElementById('guesses')
+let guessesBox = document.getElementById('guesses');
+let winsText = document.getElementById('wins');
 let catBox = 'https://bit.ly/3djRC94';
 let openBox = 'https://bit.ly/2XLOo7O';
 let closedBox = 'https://bit.ly/3ckjhFq';
@@ -19,6 +20,7 @@ let openBox5;
 let openBox6;
 let currentlyPlaying = true;
 let guesses = 0;
+let wins = 0;
 
 
 // Nav
@@ -198,6 +200,8 @@ let gameOver = (str) => {
     if (str === 'win') {
         start.innerHTML = 'You found it! Play again?';
         guessesBox.innerHTML = `${guesses} guess(es)`;
+        wins++;
+        winsText.innerHTML = `You found it ${wins} time(s)`
     } else {
         start.innerHTML = "Game over! Play again?"
     }

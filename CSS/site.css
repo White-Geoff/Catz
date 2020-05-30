@@ -108,8 +108,7 @@ main {
             height: auto;
         }
 
-        #start,
-        #guesses {
+        .textButtons {
             margin: auto;
             width: 120px;
 	        height: 43px;
