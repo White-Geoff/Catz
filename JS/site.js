@@ -192,6 +192,7 @@ let startRound = () => {
     box5.src = closedBox;
     box6.src = closedBox;
     numClosedBoxes = 6;
+    guesses = 0;
     start.innerHTML = 'Good luck!';
     currentlyPlaying = true;
     randomCatBoxGenerator();
