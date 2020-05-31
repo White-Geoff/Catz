@@ -7,6 +7,7 @@ let box5 = document.getElementById('box5');
 let box6 = document.getElementById('box6');
 let start = document.getElementById('start');
 let guessesBox = document.getElementById('guesses');
+let totalGuessesBox = document.getElementById('guessTotal');
 let winsText = document.getElementById('wins');
 let average = document.getElementById('average');
 let catBox = 'https://bit.ly/3djRC94';
@@ -45,7 +46,6 @@ let toggleNav = () => {
 }//toggleNav
 
 // Game 
-
 let isCat = (box) => {
     if (box.src === catBox) {
         return true;
@@ -201,6 +201,7 @@ let startRound = () => {
     numClosedBoxes = 6;
     guessesPerRound = 0;
     start.innerHTML = 'Good luck!';
+    guessesBox.innerHTML = '';
     currentlyPlaying = true;
     randomCatBoxGenerator();
 }//startRound
@@ -209,6 +210,7 @@ let gameOver = (str) => {
     if (str === 'win') {
         start.innerHTML = 'You found it! Play again?';
         guessesBox.innerHTML = `${guesses} guess(es)`;
+        totalGuessesBox.innerHTML = `You guessed ${guesses} times total`;
         wins++;
         winsText.innerHTML = `You found it ${wins} time(s)`
         average.innerHTML = `Your average is ${Math.round((guesses / wins) * 100) / 100} guesses / win`
