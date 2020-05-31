@@ -165,7 +165,6 @@ main {
 
         #smallHighlightImageBox {
             display: flex;
-            align-items:center;
         }
 
         .lavender {
@@ -175,11 +174,13 @@ main {
         .mySlides {
             display: none;
             padding: 25px;
+            display: flex;
+            align-items:center;
         }
         
         .mySlides>img {
           margin: 25px;
-          width: calc(33% - 50px);
+          width: calc(33% - 70px);
           height: auto;
         }
         
@@ -191,11 +192,6 @@ main {
         .doubleArrow:hover {
           background-color: rgba(0,0,0,0.8);
         }
-
-        .#doubleRightArrow {
-            right: 0;
-            border-radius: 3px 0 0 3px;
-          }
         
         /* Fading animation */
         .fade {
