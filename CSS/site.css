@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     background: #fda4a4;
     color: #800080;
+    width: 100%;
 }
 
 /* Nav */
@@ -78,6 +79,8 @@ header {
 /* Mains */
 main {
     text-align: center;
+    width: 100%;
+    height: auto;
 }
 
     /* Cat Game */
@@ -131,6 +134,70 @@ main {
         #start {
             background-color: #999999;
           }
+
+    /* home page with highlight photos */
+    #homePageMain {
+        border: 1px solid #000;
+        margin: 50px;
+        padding: 25px 50px;
+        width: calc(100% - 202px);
+    }
+
+        #highlightPositionWrapper {
+            position: relative;
+            top: -270px;
+        }    
+
+            #ribbon {
+                width: 50%;
+                height: auto;
+                position: relative;
+                top: -78px;
+                left: -358px;
+                z-index: 3;
+            }
+
+            #highlightImgBox {
+                width: 100%;
+            }
+
+            #highlightImg {
+                margin: 50px;
+                width: calc(100% - 100px);
+                height: auto;
+                border: 10px solid #800080;
+            }
+
+            .lavender {
+                background: #E6E6FA;
+            }
+
+            #smallerHighlightImagesBox {
+                width: 100%;
+                height: auto;
+                display: flex;
+                margin: 25px 0;
+                display: flex;
+                align-items:center;
+            }
+
+            .doubleArrow {
+                font-size: 400%;
+                cursor: pointer;
+            }
+
+            .smallImgBox {
+                height: 250px;
+                width: calc(33% - 10px);
+                margin: 5px;
+            }
+
+            .smallImgBox>img {
+                margin: 25px;
+                width: calc(100% - 60px);
+                height: calc(100% - 60px);
+                border: 5px solid #800080;
+            }
 
 footer {
     width: 100%;
