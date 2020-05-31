@@ -138,12 +138,13 @@ main {
     /* home page with highlight photos */
     #homePageMain {
         border: 1px solid #000;
-        margin: 50px;
-        padding: 25px 50px;
-        width: calc(100% - 202px);
+        margin: 5%;
+        padding: 5% 50px;
+        width: calc(85% - 2px);
     }
 
         #highlightPositionWrapper {
+            width: 100%;
         }    
 
             #ribbon {
@@ -159,8 +160,8 @@ main {
             }
 
             #highlightImg {
-                margin: 50px;
-                width: calc(100% - 100px);
+                margin: 5%;
+                width: calc(90% - 20px);
                 height: auto;
                 border: 10px solid #800080;
             }
