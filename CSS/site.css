@@ -150,8 +150,7 @@ main {
                 width: 50%;
                 height: auto;
                 position: relative;
-                top: -78px;
-                left: -358px;
+                float: left;
                 z-index: 3;
             }
 
