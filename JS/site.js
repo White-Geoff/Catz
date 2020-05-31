@@ -8,8 +8,8 @@ let box6 = document.getElementById('box6');
 let start = document.getElementById('start');
 let guessesBox = document.getElementById('guesses');
 let totalGuessesBox = document.getElementById('guessTotal');
-let winsText = document.getElementById('wins');
-let average = document.getElementById('average');
+let winsBox = document.getElementById('wins');
+let averageBox = document.getElementById('average');
 let catBox = 'https://bit.ly/3djRC94';
 let openBox = 'https://bit.ly/2XLOo7O';
 let closedBox = 'https://bit.ly/3ckjhFq';
@@ -212,8 +212,8 @@ let gameOver = (str) => {
         guessesBox.innerHTML = `${guesses} guess(es)`;
         totalGuessesBox.innerHTML = `You guessed ${guesses} times total`;
         wins++;
-        winsText.innerHTML = `You found it ${wins} time(s)`
-        average.innerHTML = `Your average is ${Math.round((guesses / wins) * 100) / 100} guesses / win`
+        winsBox.innerHTML = `You found it ${wins} time(s)`
+        averageBox.innerHTML = `Your average is ${Math.round((guesses / wins) * 100) / 100} guesses to find.`
     }
     currentlyPlaying = false;
 }//gameOver
