@@ -203,7 +203,7 @@ let gameOver = (str) => {
         guessesBox.innerHTML = `${guesses} guess(es)`;
         wins++;
         winsText.innerHTML = `You found it ${wins} time(s)`
-        average.innerHTML = `Your average is ${guesses / wins } guesses / win`
+        average.innerHTML = `Your average is ${Math.round((guesses / wins) * 100) / 100} guesses / win`
     }
     currentlyPlaying = false;
 }//gameOver
