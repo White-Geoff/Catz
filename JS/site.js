@@ -20,7 +20,8 @@ let openBox4;
 let openBox5;
 let openBox6;
 let currentlyPlaying = true;
-let guesses = 0;
+let guesses = 1;
+let guessesPerRound = 0;
 let wins = 0;
 
 
@@ -129,7 +130,8 @@ box1.onclick = () => {
         box1.src = openBox1;
         playBox(box1);
         guesses++;
-        guessesBox.innerHTML = `${guesses} guess(es)`;
+        guessesPerRound++;
+        guessesBox.innerHTML = `${guessesPerRound} guess(es)`;
     }
 }//box1.onclick
 
@@ -138,7 +140,8 @@ box2.onclick = () => {
         box2.src = openBox2;
         playBox(box2);
         guesses++;
-        guessesBox.innerHTML = `${guesses} guess(es)`;
+        guessesPerRound++;
+        guessesBox.innerHTML = `${guessesPerRound} guess(es)`;
     }
 }//box2.onclick
 
@@ -147,7 +150,8 @@ box3.onclick = () => {
         box3.src = openBox3;
         playBox(box3);
         guesses++;
-        guessesBox.innerHTML = `${guesses} guess(es)`;
+        guessesPerRound++;
+        guessesBox.innerHTML = `${guessesPerRound} guess(es)`;
     }
 }//box3.onclick
 
@@ -156,7 +160,8 @@ box4.onclick = () => {
         box4.src = openBox4;
         playBox(box4);
         guesses++;
-        guessesBox.innerHTML = `${guesses} guess(es)`;
+        guessesPerRound++;
+        guessesBox.innerHTML = `${guessesPerRound} guess(es)`;
     }
 }//box4.onclick
 
@@ -165,7 +170,8 @@ box5.onclick = () => {
         box5.src = openBox5;
         playBox(box5);
         guesses++;
-        guessesBox.innerHTML = `${guesses} guess(es)`;
+        guessesPerRound++;
+        guessesBox.innerHTML = `${guessesPerRound} guess(es)`;
     }
 }//box5.onclick
 
@@ -174,7 +180,8 @@ box6.onclick = () => {
         box6.src = openBox6;
         playBox(box6);
         guesses++;
-        guessesBox.innerHTML = `${guesses} guess(es)`;
+        guessesPerRound++;
+        guessesBox.innerHTML = `${guessesPerRound} guess(es)`;
     }
 }//box6.onclick
 
@@ -192,6 +199,7 @@ let startRound = () => {
     box5.src = closedBox;
     box6.src = closedBox;
     numClosedBoxes = 6;
+    guessesPerRound = 0;
     start.innerHTML = 'Good luck!';
     currentlyPlaying = true;
     randomCatBoxGenerator();
