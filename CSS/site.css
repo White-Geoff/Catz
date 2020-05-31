@@ -144,8 +144,6 @@ main {
     }
 
         #highlightPositionWrapper {
-            position: relative;
-            top: -270px;
         }    
 
             #ribbon {
