@@ -216,7 +216,7 @@ main {
     /* Star cat */
     #starCatImage {
         width: 70%;
-        margin-left: 15%;
+        margin:50px auto 50px 15%;
     }
 
         #starCatImage>img {
@@ -243,6 +243,12 @@ main {
         p {
             margin: 25px;
         }
+
+    /* Contact */
+    #contactImg {
+        width: 1000px;
+        margin: 50px;
+    }
 
 footer {
     width: 100%;
