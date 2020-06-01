@@ -180,8 +180,9 @@ main {
         
         .mySlides>img {
           margin: 25px;
-          width: calc(33% - 70px);
+          width: calc(33% - 80px);
           height: auto;
+          border: 5px solid #800080;
         }
         
         .doubleArrow {
