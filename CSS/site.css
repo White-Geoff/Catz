@@ -51,6 +51,7 @@ padding-top: 60px;
         height: 50px;
         position: fixed;
         right: 15px;
+        z-index: 3;
     }
 
     /* Header */
@@ -210,6 +211,37 @@ main {
         @keyframes fade {
           from {opacity: .4}
           to {opacity: 1}
+        }
+
+    /* Star cat */
+    #starCatImage {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+        #starCatImage>img {
+            width: auto;
+            height: 1000px;
+            margin: 25px;
+            border: 10px solid #800080;
+        }
+
+        .blackBorder {
+            border: 5px solid #000;
+        }
+
+        #starCatHighlights {
+            width: 30%;
+            margin: 25px auto 25px 35%; 
+        }
+
+        #starCatAbout {
+            width: 60%;
+            margin: 25px auto 25px 20%;
+        }
+
+        p {
+            margin: 25px;
         }
 
 footer {
